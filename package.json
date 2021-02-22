@@ -1,0 +1,21 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "testing node package.json",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./index.js",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "testing npm"
+  ],
+  "author": "chris stein",
+  "license": "ISC",
+  "devDependencies": {
+    "js-beautify": "^1.13.5",
+    "marked": "^2.0.0"
+  }
+}
